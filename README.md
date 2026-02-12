@@ -224,21 +224,7 @@ pip install pennylane pennylane-numpy torch scikit-learn matplotlib seaborn tqdm
 4. **PyTorch facilita problemas multiclasse**
    - A integração PennyLane + PyTorch permite usar `CrossEntropyLoss` e otimizadores sofisticados
 
-### Comparação Visual
-
-```
-                    SEM RE-UPLOADING              COM RE-UPLOADING
-                    
-Expressividade:     ████░░░░░░ (40%)             ██████████ (100%)
-
-Fronteiras:         Lineares/Simples             Altamente não-lineares
-
-Moons Accuracy:     ~80-90%                      ~100%
-
-Convergência:       Instável                     Estável e rápida
-```
-
-## 👨‍💻 Autor
+## 👨‍💻 Autor: Jairo Gonzaga
 
 Desenvolvido como parte do processo seletivo LACIQ.
 

@@ -118,7 +118,8 @@ Laciq_PS/
 | **Classes** | 2 |
 | **Qubits** | 1 |
 | **Camadas** | 1 |
-![Blobs](Result\blobs.png)
+
+![Blobs](./Result/blobs.png)
 > 💡 **Insight**: Por ser linearmente separável, não há necessidade de circuitos complexos nem Data Re-uploading. Serve como baseline para validar a implementação.
 
 ---
@@ -130,8 +131,9 @@ Laciq_PS/
 | **Qubits** | 2 | 2 |
 | **Camadas** | 6 | 6 |
 | **Convergência** | Mais lenta | Mais rápida |
-| **Acurácia Final** | ~80-90% | **~100%** |
-![Moons](Result\moons.png)
+| **Acurácia Final** | 40% | **~100%** |
+
+![Moons](./Result/moons.png)
 
 > 🔥 **Resultado chave**: O Data Re-uploading permite que o modelo alcance **100% de acurácia** em problemas com fronteiras não-lineares como o Moons!
 
